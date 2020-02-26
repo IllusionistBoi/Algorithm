@@ -9,7 +9,7 @@ public class TowerOfHanoi {
             return;
         }
 
-        //Recursive Functions
+        //Recursive Functions Called to repeat
 
         towerOfHanoi(Dish_Number-1, Initial_Rod, Aux_Rod, Destination_Rod);
         System.out.println("Move disk " + Dish_Number + " from rod " +  Initial_Rod + " to rod " + Destination_Rod);
@@ -20,6 +20,7 @@ public class TowerOfHanoi {
     public static void main(String args[])
     {
         int Dish_Number = 4; // Number of disks
-        towerOfHanoi(Dish_Number, 'A', 'C', 'B');  // A, B and C are names of rods
+        // A, B and C are names of rods
+        towerOfHanoi(Dish_Number, 'A', 'C', 'B');
     }
 }
