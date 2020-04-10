@@ -1,5 +1,14 @@
 package com.rd;
 
+/**
+ * This program sort a randomized array with random input
+ * using the insertion sort technique. GenerationArray file
+ * is responsible for assigning random value to array.
+ *
+ * Computation & Graph data is exported into excel file
+ * along with the code
+ */
+
 public class Main {
 
     // Made the array global so as to make it accessible from different function
@@ -17,6 +26,12 @@ public class Main {
         System.out.println();
     }
 
+    /**
+     * Method to check if the array is
+     * sorted or not
+     * @param array
+     * @return boolean true if sorted else false
+     */
     static boolean isSorted(Double[] array) {
         for (int i = 0; i < array.length - 1; i++) {
             if (array[i] > array[i + 1])
@@ -25,12 +40,15 @@ public class Main {
         return true;
     }
 
+
     public static void main(String[] args) {
 
         long size = 10;
 
-        while(size < 100000) {
+        // While loop to change the size of the array
+        while(size < 1000) {
 
+            // Value assignment to the array using generatorArray function
             array = new GeneratorArray((int) size).generate();
             System.out.println("Unsorted Array:");
             arrayPrint(array);
@@ -47,7 +65,7 @@ public class Main {
             System.out.println("Computation Time is: " + elapsedTime + " for array size: " + size + " Is Sorted? " + isSorted(array) );
             System.out.println(" ");
 
-            // Used for graph in excel
+            //Used for graph in excel
             //System.out.println(elapsedTime + " " + size + " " + isSorted(array));
 
             // changes the array input
