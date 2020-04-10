@@ -1,8 +1,9 @@
 package com.rd;
 public class InsertionSort {
 
-    public int[] sort (int array[]) {
-        int key, j;
+    public Double[] sort (Double array[]) {
+        Double key;
+        int j;
         int n = array.length;
 
         for (int i = 1; i < n; ++i) {
