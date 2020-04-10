@@ -1,5 +1,4 @@
 package com.rd;
-
 public class InsertionSort {
 
     public int[] sort (int array[]) {

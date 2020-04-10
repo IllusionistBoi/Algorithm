@@ -1,6 +1,9 @@
 package com.rd;
 
 import java.util.Scanner;
+import java.util.concurrent.ThreadLocalRandom;
+
+
 
 public class Main {
 
@@ -14,7 +17,7 @@ public class Main {
     static void arrayPrint(int[] array) {
         // Iterating through the element of array without using indices
         for (int element : array)
-            System.out.println(element);
+            System.out.print(element + ", ");
 
         System.out.println();
     }
@@ -23,30 +26,8 @@ public class Main {
      * Method to take array input
      * from the user using scanner
      */
-    static void arrayInput() {
 
-        Scanner s = new Scanner(System.in);
-        // Array input size asked from user
-        System.out.println("Enter the array size: ");
-        int arrayLength = s.nextInt();
-
-        // Array initialised with that size
-        array = new int[arrayLength];
-
-        // Elements entered into the array
-        System.out.println("Enter all the elements for sorting using selection sort technique:");
-
-        for(int i = 0; i < arrayLength; i++)
-            array[i] = s.nextInt();
-
-
-        System.out.println("Unsorted entered array is: ");
-        // function called
-        arrayPrint(array);
-    }
     public static void main(String[] args) {
-
-        arrayInput();
 
         // To check the run time of the program
         final long startTime = System.currentTimeMillis();
@@ -59,5 +40,7 @@ public class Main {
 
         // Computation time printed
         System.out.println("Computation Time is : " + elapsedTime);
+
+
     }
 }
