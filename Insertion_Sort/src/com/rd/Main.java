@@ -1,10 +1,5 @@
 package com.rd;
 
-import java.util.Scanner;
-import java.util.concurrent.ThreadLocalRandom;
-import java.util.concurrent.TimeUnit;
-
-
 public class Main {
 
     // Made the array global so as to make it accessible from different function
@@ -32,13 +27,13 @@ public class Main {
 
     public static void main(String[] args) {
 
-        long size = 100;
+        long size = 10;
 
-        while(size < 1000000000) {
+        while(size < 100000) {
 
             array = new GeneratorArray((int) size).generate();
-            //System.out.println("Unsorted Array:");
-            //arrayPrint(array);
+            System.out.println("Unsorted Array:");
+            arrayPrint(array);
 
             // To check the run time of the program
             final long startTime = System.nanoTime();
@@ -46,14 +41,16 @@ public class Main {
             array = new InsertionSort().sort(array);
             final long elapsedTime = System.nanoTime() - startTime;
 
-            //System.out.println("Sorted Array is: ");
-            //arrayPrint(array);
+            System.out.println("Sorted Array is: ");
+            arrayPrint(array);
 
-            //System.out.println("Computation Time is: " + elapsedTime + " for array size: " + size + " Is Sorted? " + isSorted(array) );
-            //System.out.println(" ");
+            System.out.println("Computation Time is: " + elapsedTime + " for array size: " + size + " Is Sorted? " + isSorted(array) );
+            System.out.println(" ");
 
             // Used for graph in excel
-              System.out.println(elapsedTime + " " + size + " " + isSorted(array));
+            //System.out.println(elapsedTime + " " + size + " " + isSorted(array));
+
+            // changes the array input
             size = (int) (size * 1.2);
         }
     }
