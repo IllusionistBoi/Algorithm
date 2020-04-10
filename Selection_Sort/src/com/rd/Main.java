@@ -1,68 +1,67 @@
 package com.rd;
 
-import java.util.Arrays;
-import java.util.Scanner;
-
 public class Main {
 
     // Made the array global so as to make it accessible from different function
-    private static int[] array;
+    private static Double[] array;
 
     /**
      * Method to print the array passed
      * @param array being printed
      */
-    static void arrayPrint(int[] array) {
+    static void arrayPrint(Double[] array) {
         // Iterating through the element of array without using indices
-        for (int element : array)
-            System.out.println(element);
+        for (Double element : array)
+            System.out.print(element + ", ");
 
         System.out.println();
     }
 
     /**
-     * Method to take array input
-     * from the user using scanner
+     * Method to check if the array is
+     * sorted or not
+     * @param array
+     * @return boolean true if sorted else false
      */
-    static void arrayInput() {
-
-        Scanner s = new Scanner(System.in);
-        // Array input size asked from user
-        System.out.println("Enter the array size: ");
-        int arrayLength = s.nextInt();
-
-        // Array initialised with that size
-        array = new int[arrayLength];
-
-        // Elements entered into the array
-        System.out.println("Enter all the elements for sorting using selection sort technique:");
-
-        for(int i = 0; i < arrayLength; i++)
-            array[i] = s.nextInt();
-
-
-        System.out.println("Unsorted entered array is: ");
-        // function called
-        arrayPrint(array);
+    static boolean isSorted(Double[] array) {
+        for (int i = 0; i < array.length - 1; i++) {
+            if (array[i] > array[i + 1])
+                return false;
+        }
+        return true;
     }
-
 
     public static void main(String[] args) {
 
-        arrayInput();
+        long size = 10;
 
-        // To check the run time of the program
-        final long startTime = System.currentTimeMillis();
-        // Function Called with array passed as parameter
-        array = new SelectionSort().sort(array);
-        final long elapsedTime = System.currentTimeMillis() - startTime;
+        // While loop to change the size of the array
+        while(size < 1000) {
 
-        System.out.println("Sorted Array is: ");
-        arrayPrint(array);
+            // Value assignment to the array using generatorArray function
+            array = new GeneratorArray((int) size).generate();
+            System.out.println("Unsorted Array:");
+            arrayPrint(array);
 
-        // Computation time printed
-        System.out.println("Computation Time is : " + elapsedTime);
 
+            // To check the run time of the program
+            final long startTime = System.currentTimeMillis();
+            // Function Called with array passed as parameter
+            array = new SelectionSort().sort(array);
+            final long elapsedTime = System.currentTimeMillis() - startTime;
+
+            System.out.println("Sorted Array is: ");
+            arrayPrint(array);
+
+            System.out.println("Computation Time is: " + elapsedTime + " for array size: " + size + " Is Sorted? " + isSorted(array) );
+            System.out.println(" ");
+
+            //Used for graph in excel
+            //System.out.println(elapsedTime + " " + size + " " + isSorted(array));
+
+            // changes the array input
+            size = (int) (size * 1.2);
+        }
     }
 
 

@@ -7,8 +7,8 @@ class SelectionSort {
      * @param arr takes unsorted array as input
      * @return the sorted array
      */
-    public int[] sort (int arr[]){
-        int temp;
+    public Double[] sort (Double arr[]){
+        Double temp;
 
         for (int i = 0; i < arr.length -1; i++){
             int min_index = i;
