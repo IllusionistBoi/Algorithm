@@ -36,13 +36,12 @@ public class Main {
         long size = 10;
 
         // While loop to change the size of the array
-        while(size < 1000) {
+        while(size < 100) {
 
             // Value assignment to the array using generatorArray function
             array = new GeneratorArray((int) size).generate();
             System.out.println("Unsorted Array:");
             arrayPrint(array);
-
 
             // To check the run time of the program
             final long startTime = System.currentTimeMillis();
@@ -53,11 +52,11 @@ public class Main {
             System.out.println("Sorted Array is: ");
             arrayPrint(array);
 
-            System.out.println("Computation Time is: " + elapsedTime + " for array size: " + size + " Is Sorted? " + isSorted(array) );
-            System.out.println(" ");
+//            System.out.println("Computation Time is: " + elapsedTime + " for array size: " + size + " Is Sorted? " + isSorted(array) );
+//            System.out.println(" ");
 
             //Used for graph in excel
-            //System.out.println(elapsedTime + " " + size + " " + isSorted(array));
+            System.out.println(elapsedTime + " " + size + " " + isSorted(array));
 
             // changes the array input
             size = (int) (size * 1.2);
