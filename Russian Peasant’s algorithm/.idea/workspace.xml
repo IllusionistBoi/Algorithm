@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f4083bf-b1af-4e4f-af76-56bad454adfa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Computation Graph.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/Main" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Russian Peasant’s algorithm/com/rd/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Russian Peasant’s algorithm/com/rd/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Russian Peasant’s algorithm/com/rd/Russian_PeasantAlgorithm.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Russian Peasant’s algorithm/com/rd/Russian_PeasantAlgorithm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/rd/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rd/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/Mina" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,28 +74,42 @@
       <option name="presentableId" value="Default" />
       <updated>1582206863679</updated>
     </task>
+    <task id="LOCAL-00001" summary="Computation Time Feature Added">
+      <created>1582209746135</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1582209746135</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Computation Time Feature Added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Computation Time Feature Added" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="724" height="207" key="GridCell.Tab.0.bottom" timestamp="1582209548194">
+    <state x="314" y="6" key="CommitChangelistDialog2" timestamp="1582209744229">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="724" height="207" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582209548194" />
-    <state width="724" height="207" key="GridCell.Tab.0.center" timestamp="1582209548193">
+    <state x="314" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1582209744229" />
+    <state width="1493" height="207" key="GridCell.Tab.0.bottom" timestamp="1582209912425">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="724" height="207" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1582209548193" />
-    <state width="724" height="207" key="GridCell.Tab.0.left" timestamp="1582209548193">
+    <state width="1493" height="207" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582209912425" />
+    <state width="1493" height="207" key="GridCell.Tab.0.center" timestamp="1582209912424">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="724" height="207" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1582209548193" />
-    <state width="724" height="207" key="GridCell.Tab.0.right" timestamp="1582209548193">
+    <state width="1493" height="207" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1582209912424" />
+    <state width="1493" height="207" key="GridCell.Tab.0.left" timestamp="1582209912424">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="724" height="207" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1582209548193" />
+    <state width="1493" height="207" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1582209912424" />
+    <state width="1493" height="207" key="GridCell.Tab.0.right" timestamp="1582209912424">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="207" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1582209912424" />
     <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1582209066535">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
