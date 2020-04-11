@@ -20,6 +20,7 @@ public class GeneratorArray {
      */
     public Double[] generate() {
         Double[] x = Stream.generate(new Random()::nextDouble).distinct().limit(size).toArray(Double[]::new);
+
         for (int i = 0; i < size; i++) {
             // Assigning value in power of 10 (Multiple of 10)
             x[i] *= (int)Math.pow(10,((int)(Math.random()*((7-5)+1))+5));

@@ -1,5 +1,14 @@
 package com.rd;
 
+/**
+ * This program sort a randomized array with random input
+ * using the selection sort technique. GenerationArray file
+ * is responsible for assigning random value to array.
+ *
+ * Computation & Graph data is exported into excel file
+ * along with the code
+ */
+
 public class Main {
 
     // Made the array global so as to make it accessible from different function
