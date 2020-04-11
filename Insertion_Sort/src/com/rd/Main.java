@@ -43,10 +43,10 @@ public class Main {
 
     public static void main(String[] args) {
 
-        long size = 10;
+        long size = 100;
 
         // While loop to change the size of the array
-        while(size < 1000) {
+        while(size < 100000) {
 
             // Value assignment to the array using generatorArray function
             array = new GeneratorArray((int) size).generate();

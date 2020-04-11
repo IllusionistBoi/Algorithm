@@ -33,15 +33,15 @@ public class Main {
 
     public static void main(String[] args) {
 
-        long size = 10;
+        long size = 1000;
 
         // While loop to change the size of the array
-        while(size < 100) {
+        while(size < 100000) {
 
             // Value assignment to the array using generatorArray function
             array = new GeneratorArray((int) size).generate();
-            System.out.println("Unsorted Array:");
-            arrayPrint(array);
+        //    System.out.println("Unsorted Array:");
+          //  arrayPrint(array);
 
             // To check the run time of the program
             final long startTime = System.currentTimeMillis();
@@ -49,8 +49,8 @@ public class Main {
             array = new SelectionSort().sort(array);
             final long elapsedTime = System.currentTimeMillis() - startTime;
 
-            System.out.println("Sorted Array is: ");
-            arrayPrint(array);
+         //   System.out.println("Sorted Array is: ");
+           // arrayPrint(array);
 
 //            System.out.println("Computation Time is: " + elapsedTime + " for array size: " + size + " Is Sorted? " + isSorted(array) );
 //            System.out.println(" ");
