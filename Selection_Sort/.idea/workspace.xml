@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2e669a07-c459-44c6-8b13-019c56cc523e" name="Default Changelist" comment="">
+    <list default="true" id="2e669a07-c459-44c6-8b13-019c56cc523e" name="Default Changelist" comment="GeneratorArray file added, implementation updated">
+      <change beforePath="$PROJECT_DIR$/../Bogo_Sort/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Bogo_Sort/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bogo_Sort/out/production/Bogo_Sort/com/rd/RandomSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Bogo_Sort/out/production/Bogo_Sort/com/rd/RandomSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bogo_Sort/src/com/rd/BogoSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Bogo_Sort/src/com/rd/BogoSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bogo_Sort/src/com/rd/GeneratorArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Bogo_Sort/src/com/rd/GeneratorArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bogo_Sort/src/com/rd/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Bogo_Sort/src/com/rd/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Insertion_Sort/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Insertion_Sort/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/rd/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rd/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -95,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586562258382</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="GeneratorArray file added, implementation updated">
+      <created>1586563918493</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1586563918493</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -103,50 +116,54 @@
     <option name="LAST_COMMIT_MESSAGE" value="GeneratorArray file added, implementation updated" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="385" y="6" key="CommitChangelistDialog2" timestamp="1586562256675">
+    <state x="385" y="6" key="CommitChangelistDialog2" timestamp="1586565215162">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="385" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1586562256675" />
-    <state width="1493" height="160" key="GridCell.Tab.0.bottom" timestamp="1586563677384">
+    <state x="385" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1586565215162" />
+    <state width="1493" height="261" key="GridCell.Tab.0.bottom" timestamp="1586566093536">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="160" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586563677384" />
-    <state width="1493" height="160" key="GridCell.Tab.0.center" timestamp="1586563677384">
+    <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586566093536" />
+    <state width="1493" height="261" key="GridCell.Tab.0.center" timestamp="1586566093536">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="160" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586563677384" />
-    <state width="1493" height="160" key="GridCell.Tab.0.left" timestamp="1586563677383">
+    <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586566093536" />
+    <state width="1493" height="261" key="GridCell.Tab.0.left" timestamp="1586566093536">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="160" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586563677383" />
-    <state width="1493" height="160" key="GridCell.Tab.0.right" timestamp="1586563677384">
+    <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586566093536" />
+    <state width="1493" height="261" key="GridCell.Tab.0.right" timestamp="1586566093536">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="160" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586563677384" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1586562256819">
+    <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586566093536" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1586566093540">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586562256819" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1586562256819">
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586566093540" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1586566093540">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1586562256819" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1586562256819">
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1586566093540" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1586566093536">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1586562256819" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1586562256819">
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1586566093536" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1586566093540">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1586562256819" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1586562265213">
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1586566093540" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1586563923451">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1586562265213" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1586563923451" />
     <state x="209" y="32" key="new project wizard" timestamp="1586454267612">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="209" y="32" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1586454267612" />
+    <state x="47" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1586564353240">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="47" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1586564353240" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Selection_Sort$Main.ic" NAME="Main Coverage Results" MODIFIED="1586561574672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
