@@ -7,7 +7,8 @@ package com.rd;
  */
 
 public class KMP {
-    private static int comparisons = 0;
+
+    private static int comparisons;
 
     public static int match(String T, String P) {
         int n = T.length();

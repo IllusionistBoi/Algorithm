@@ -6,15 +6,14 @@ package com.rd;
  */
 
 public class BruteForce {
-    private static int comparisons = 0;
 
-
-
+    private static int comparisons;
 
     public static int match(String T, String P) {
         int i = 0;
         int n = T.length();
         int m = P.length();
+
         while (i <= n-m) {
             int j = 0;
             while ((j < m) && (T.charAt(i+j) == P.charAt(j))) {
@@ -33,8 +32,6 @@ public class BruteForce {
     /*
      * Implementation of matchTwo function using offset
      */
-
-
     public static void matchTwo(String T, String P, int offset) {
 
         int n = T.length();

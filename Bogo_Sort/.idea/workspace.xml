@@ -2,29 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6fa442a3-7d2c-4b8a-bab6-f4697c21baee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Knuth-Morris-Pratt algorithm/ Knuth-Morris-Pratt algorithm.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Knuth-Morris-Pratt algorithm/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Knuth-Morris-Pratt algorithm/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Knuth-Morris-Pratt algorithm/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Knuth-Morris-Pratt algorithm/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Knuth-Morris-Pratt algorithm/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Knuth-Morris-Pratt algorithm/.idea/project-template.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Knuth-Morris-Pratt algorithm/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Knuth-Morris-Pratt algorithm/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Knuth-Morris-Pratt algorithm/out/production/ Knuth-Morris-Pratt algorithm/com/rd/KMP.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Knuth-Morris-Pratt algorithm/src/com/rd/BruteForce.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Knuth-Morris-Pratt algorithm/src/com/rd/KMP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Knuth-Morris-Pratt algorithm/src/com/rd/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Merge_Sort/out/production/Merge_Sort/com/rd/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Merge_Sort/out/production/Merge_Sort/com/rd/MergeSort.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Merge_Sort/out/production/Merge_Sort/com/rd/MergeSortEnhanced.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Bogo_Sort/com/rd/RandomSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bogo_Sort/com/rd/RandomSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/rd/BogoSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rd/BogoSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/rd/GeneratorArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rd/GeneratorArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/rd/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rd/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Knuth-Morris-Pratt algorithm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Knuth-Morris-Pratt algorithm/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Knuth-Morris-Pratt algorithm/out/production/ Knuth-Morris-Pratt algorithm/com/rd/KMP.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Knuth-Morris-Pratt algorithm/out/production/ Knuth-Morris-Pratt algorithm/com/rd/KMP.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Knuth-Morris-Pratt algorithm/src/com/rd/BruteForce.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Knuth-Morris-Pratt algorithm/src/com/rd/BruteForce.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Knuth-Morris-Pratt algorithm/src/com/rd/KMP.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Knuth-Morris-Pratt algorithm/src/com/rd/KMP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Knuth-Morris-Pratt algorithm/src/com/rd/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Knuth-Morris-Pratt algorithm/src/com/rd/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Merge_Sort/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Merge_Sort/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Selection_Sort/src/com/rd/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Selection_Sort/src/com/rd/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
