@@ -13,36 +13,43 @@ public class Main {
 
         String T = "a pattern matching algorithm";
         comparisons = 0;
-        System.out.println("index: ");
-        System.out.println(KMP.match(T, "rithm"));
-        System.out.println("comparisons: " + comparisons);
+        System.out.print("Index: ");
+        System.out.print(KMP.match(T, "rithm"));
+        System.out.println(" Comparisons: " + comparisons);
 
         T = "abacaabaccabacabaabb";
         comparisons = 0;
-        System.out.println("index: " + KMP.match(T, "abacab"));
-        System.out.println("comparisons: " + comparisons);
+        System.out.print("Index: " + KMP.match(T, "abacab"));
+        System.out.print(" Comparisons: " + comparisons);
+        System.out.println(" ");
+        System.out.println(" ");
+
 
         /**
          * BruteForce ALgorithm substring
          * performed below
          */
-        T = "a pattern matching algorithm";
+        String Y = "a pattern matching algorithm";
         comparisons = 0;
-        System.out.println("index: ");
-        System.out.println(BruteForce.match(T,"rithm"));
-        System.out.println("comparisons: " + comparisons);
+        System.out.println("Index: ");
+        System.out.println(BruteForce.match(Y,"rithm"));
+        System.out.println("Comparisons: " + comparisons);
+        System.out.println(" ");
+        System.out.println(" ");
 
-        T = "abacaabaccabacabaabb";
+        Y = "abacaabaccabacabaabb";
         comparisons = 0;
-        System.out.println("index: ");
-        System.out.println(BruteForce.match(T,"abacab"));
-        System.out.println("comparisons: " + comparisons);
+        System.out.println("Index: ");
+        System.out.println(BruteForce.match(Y,"abacab"));
+        System.out.println("Comparisons: " + comparisons);
+        System.out.println(" ");
+        System.out.println(" ");
 
 
-        T = "the cat sat on the back of the big red mat";
+        Y = "the cat sat on the back of the big red mat";
         comparisons = 0;
-        BruteForce.matchTwo(T, "the", 0);
-        System.out.println("comparisons: " + comparisons);
+        BruteForce.matchTwo(Y, "the", 0);
+        System.out.println("Comparisons: " + comparisons);
 
     }
 }

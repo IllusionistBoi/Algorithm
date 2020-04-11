@@ -2,29 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f33c6610-aaa0-40a6-8a8d-19666b8f453d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ Knuth-Morris-Pratt algorithm.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/project-template.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ Knuth-Morris-Pratt algorithm/com/rd/KMP.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/rd/BruteForce.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/rd/KMP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/rd/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Merge_Sort/out/production/Merge_Sort/com/rd/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Merge_Sort/out/production/Merge_Sort/com/rd/MergeSort.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Merge_Sort/out/production/Merge_Sort/com/rd/MergeSortEnhanced.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bogo_Sort/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Bogo_Sort/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bogo_Sort/out/production/Bogo_Sort/com/rd/RandomSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Bogo_Sort/out/production/Bogo_Sort/com/rd/RandomSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bogo_Sort/src/com/rd/BogoSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Bogo_Sort/src/com/rd/BogoSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bogo_Sort/src/com/rd/GeneratorArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Bogo_Sort/src/com/rd/GeneratorArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bogo_Sort/src/com/rd/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Bogo_Sort/src/com/rd/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Merge_Sort/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Merge_Sort/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Selection_Sort/src/com/rd/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Selection_Sort/src/com/rd/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rd/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rd/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,35 +94,49 @@
       <option name="presentableId" value="Default" />
       <updated>1586640356573</updated>
     </task>
+    <task id="LOCAL-00001" summary="BruteForce, KMP implemented with comments">
+      <created>1586641959195</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1586641959195</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="BruteForce, KMP implemented with comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="BruteForce, KMP implemented with comments" />
   </component>
   <component name="WindowStateProjectService">
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586641361132">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1586641361132" />
-    <state x="294" y="6" key="CommitChangelistDialog2" timestamp="1586641852325">
+    <state x="294" y="6" key="CommitChangelistDialog2" timestamp="1586641957003">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="294" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1586641852325" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1586641918642">
+    <state x="294" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1586641957003" />
+    <state width="1493" height="645" key="GridCell.Tab.0.bottom" timestamp="1586642691477">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586641918642" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1586641918642">
+    <state width="1493" height="645" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586642691477" />
+    <state width="1493" height="645" key="GridCell.Tab.0.center" timestamp="1586642691477">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586641918642" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1586641918641">
+    <state width="1493" height="645" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586642691477" />
+    <state width="1493" height="645" key="GridCell.Tab.0.left" timestamp="1586642691477">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586641918641" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1586641918642">
+    <state width="1493" height="645" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586642691477" />
+    <state width="1493" height="645" key="GridCell.Tab.0.right" timestamp="1586642691477">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586641918642" />
+    <state width="1493" height="645" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586642691477" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1586641964729">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1586641964729" />
   </component>
 </project>
