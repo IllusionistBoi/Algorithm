@@ -8,9 +8,9 @@ public class MergeSort {
      * @param array array passed for mergeSort
      * @param arrayLength length of array passed
      */
-    public static void mergeSort(int[] array, int arrayLength) {
+    public static void mergeSort(Double[] array, int arrayLength) {
 
-        // If arraySize < 2 return as it is
+        // Base Case
         if (arrayLength < 2)
             return;
 
@@ -20,8 +20,8 @@ public class MergeSort {
          *  left and right array
          */
         int mid = arrayLength / 2;
-        int[] leftArray = new int[mid];
-        int[] rightArray = new int[arrayLength - mid];
+        Double[] leftArray = new Double[mid];
+        Double[] rightArray = new Double[arrayLength - mid];
 
         /**
          *  Array diveded into two parts and copied into
@@ -57,7 +57,7 @@ public class MergeSort {
     }
 
 
-    public static void merge(int[] leftArray, int[] rightArray, int[] array, int leftSize, int rightSize) {
+    public static void merge(Double[] leftArray, Double[] rightArray, Double[] array, int leftSize, int rightSize) {
 
        // Random variable value assigned to avoid garbage value
         int i = 0;

@@ -49,7 +49,8 @@ public class Main {
             final long startTime = System.currentTimeMillis();
             // Function Called with array passed as parameter
 
-            MERGE SORT ADDED CALL HERE
+            MergeSort.mergeSort(array, array.length);
+            //MERGE SORT ADDED CALL HERE
 
             final long elapsedTime = System.currentTimeMillis() - startTime;
 
