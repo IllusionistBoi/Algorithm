@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e669a07-c459-44c6-8b13-019c56cc523e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Bogo_Sort/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Bogo_Sort/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Insertion_Sort/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Insertion_Sort/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Selection_Sort/com/rd/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Selection_Sort/com/rd/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Selection_Sort/com/rd/SelectionSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Selection_Sort/com/rd/SelectionSort.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/rd/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rd/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/rd/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rd/SelectionSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
