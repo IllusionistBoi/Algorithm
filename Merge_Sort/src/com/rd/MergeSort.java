@@ -2,45 +2,82 @@ package com.rd;
 
 public class MergeSort {
 
-    static void mergeSort(int[] a) {
+    /**
+     * MergeSort Performed
+     *
+     * @param array array passed for mergeSort
+     * @param arrayLength length of array passed
+     */
+    public static void mergeSort(int[] array, int arrayLength) {
 
-        N = array.length;
-        //base case
-        if (n == 1) {
-            return array;
+        // If arraySize < 2 return as it is
+        if (arrayLength < 2)
+            return;
+
+        /**
+         *  Array midpoint found and array
+         *  divided into two different array
+         *  left and right array
+         */
+        int mid = arrayLength / 2;
+        int[] leftArray = new int[mid];
+        int[] rightArray = new int[arrayLength - mid];
+
+        /**
+         *  Array diveded into two parts and copied into
+         *  two separate arrays leftArray & rightArray
+         */
+        int k = 0;
+
+        for (int i = 0; i < arrayLength; ++i) {
+
+            if (i < mid)
+                leftArray[i] = array[i];
+
+            else {
+                rightArray[k] = array[i];
+                k = k + 1;
+            }
         }
 
-        //create left and right sub-arrays
-        left = mergeSort(left);
-        right = mergeSort(right);
 
-        mergeArray = merge(left, right);
+        /**
+         * mergeSort Function is called recursively to again divede
+         * the right and left array into sub array until all subarray
+         * length becomes 1
+         */
+        mergeSort(leftArray, mid);
+        mergeSort(rightArray, arrayLength - mid);
 
-        return mergedArray;
+        /**
+         * Merge method called on each and
+         * every subdivision made
+         */
+        merge(leftArray, rightArray, array, mid, arrayLength - mid);
     }
 
-    static void merge(int[] a, int[] b) {
 
-        //repeat while both arrays have elements in them
+    public static void merge(int[] leftArray, int[] rightArray, int[] array, int leftSize, int rightSize) {
 
-        while (a.notEmpty() && b.notEmpty()) {
+       // Random variable value assigned to avoid garbage value
+        int i = 0;
+        int l = 0;
+        int r = 0;
 
-            //if element in 1st array is <= 1st element in 2nd array
-            if (a.firstElement <= b.firstElement) {
-                S.insertLast(a.removeFirst());
-            } else if (b.firstElement <= a.firstElement) {
-                S.insertLast(b.removeFirst());
-            }
-
-            //when while loop ends
-            If(a.notEmpty()) {
-                //add remaining elements in a to S
-            } else if (b.notEmpty()) {
-                //add remaining elements in b to S
-            }
-
-            return S;
+     /**
+      * Conditions that check merging conditions
+      */
+        while (r < rightSize && l < leftSize) {
+            if (leftArray[l] < rightArray[r])
+                array[i++] = rightArray[l++];
+            else
+                array[i++] = rightArray[r++];
         }
+
+        while (r < rightSize)
+             array[i++] = leftArray[r++];
+
+        while (l < leftSize)
+            array[i++] = leftArray[l++];
     }
 }
-
