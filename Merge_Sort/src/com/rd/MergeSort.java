@@ -5,7 +5,7 @@ public class MergeSort {
     /**
      * MergeSort Performed
      *
-     * @param array array passed for mergeSort
+     * @param array       array passed for mergeSort
      * @param arrayLength length of array passed
      */
     public static void mergeSort(Double[] array, int arrayLength) {
@@ -59,23 +59,23 @@ public class MergeSort {
 
     public static void merge(Double[] leftArray, Double[] rightArray, Double[] array, int leftSize, int rightSize) {
 
-       // Random variable value assigned to avoid garbage value
+        // Random variable value assigned to avoid garbage value
         int i = 0;
         int l = 0;
         int r = 0;
 
-     /**
-      * Conditions that check merging conditions
-      */
+        /**
+         * Conditions that check merging conditions
+         */
         while (r < rightSize && l < leftSize) {
-            if (leftArray[l] < rightArray[r])
-                array[i++] = rightArray[l++];
-            else
+            if (leftArray[l] > rightArray[r])
                 array[i++] = rightArray[r++];
+            else
+                array[i++] = leftArray[l++];
         }
 
         while (r < rightSize)
-             array[i++] = leftArray[r++];
+            array[i++] = rightArray[r++];
 
         while (l < leftSize)
             array[i++] = leftArray[l++];

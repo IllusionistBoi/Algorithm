@@ -35,10 +35,12 @@ public class Main {
 
 
     public static void main(String[] args) {
-        long size = 5;
+
+
+        long size = 1000;
 
         // While loop to change the size of the array
-        while (size < 10) {
+        while (size < 1000000000) {
 
             // Value assignment to the array using generatorArray function
             array = new GeneratorArray((int) size).generate();
@@ -49,8 +51,8 @@ public class Main {
             final long startTime = System.currentTimeMillis();
             // Function Called with array passed as parameter
 
-            MergeSort.mergeSort(array, array.length);
             //MERGE SORT ADDED CALL HERE
+            MergeSort.mergeSort(array, array.length);
 
             final long elapsedTime = System.currentTimeMillis() - startTime;
 
