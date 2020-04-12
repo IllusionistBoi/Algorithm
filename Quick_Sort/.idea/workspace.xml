@@ -3,20 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="142569ff-bde2-4cf5-9806-e2d3814e65be" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../MergeSort.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/rd/GeneratorArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Bogo_Sort.zip" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Bogo_Sort/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Bogo_Sort/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Knuth-Morris-Pratt algorithm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Knuth-Morris-Pratt algorithm/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Knuth-Morris-Pratt algorithm/out/production/ Knuth-Morris-Pratt algorithm/com/rd/KMP.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Knuth-Morris-Pratt algorithm/out/production/ Knuth-Morris-Pratt algorithm/com/rd/KMP.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Knuth-Morris-Pratt algorithm/src/com/rd/BruteForce.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Knuth-Morris-Pratt algorithm/src/com/rd/BruteForce.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Knuth-Morris-Pratt algorithm/src/com/rd/KMP.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Knuth-Morris-Pratt algorithm/src/com/rd/KMP.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Knuth-Morris-Pratt algorithm/src/com/rd/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Knuth-Morris-Pratt algorithm/src/com/rd/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Merge_Sort.rar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Merge_Sort/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Merge_Sort/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Merge_Sort/out/production/Merge_Sort/com/rd/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Merge_Sort/out/production/Merge_Sort/com/rd/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Merge_Sort/out/production/Merge_Sort/com/rd/MergeSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Merge_Sort/out/production/Merge_Sort/com/rd/MergeSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Merge_Sort/src/com/rd/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Merge_Sort/src/com/rd/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Merge_Sort/src/com/rd/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Merge_Sort/src/com/rd/MergeSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Quick_Sort/com/rd/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Quick_Sort/com/rd/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Quick_Sort/com/rd/QuickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Quick_Sort/com/rd/QuickSort.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/rd/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rd/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/rd/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rd/QuickSort.java" afterDir="false" />
     </list>
@@ -47,6 +42,12 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/rd" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Ronit\Desktop\Git_Repo\Algorithm\Quick_Sort\src\com\rd" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
@@ -88,9 +89,50 @@
       <option name="presentableId" value="Default" />
       <updated>1586454422706</updated>
     </task>
+    <task id="LOCAL-00001" summary="Quick sort implemented">
+      <created>1586693226015</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1586693226015</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Quick sort implemented" />
+    <option name="LAST_COMMIT_MESSAGE" value="Quick sort implemented" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="397" y="6" key="CommitChangelistDialog2" timestamp="1586693225237">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="397" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1586693225237" />
+    <state width="1493" height="148" key="GridCell.Tab.0.bottom" timestamp="1586704324622">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="148" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586704324622" />
+    <state width="1493" height="148" key="GridCell.Tab.0.center" timestamp="1586704324622">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="148" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586704324622" />
+    <state width="1493" height="148" key="GridCell.Tab.0.left" timestamp="1586704324622">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="148" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586704324622" />
+    <state width="1493" height="148" key="GridCell.Tab.0.right" timestamp="1586704324622">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="148" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586704324622" />
+    <state width="348" height="446" key="SwitcherDM" timestamp="1586704621630">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="348" height="446" key="SwitcherDM/0.0.1536.824@0.0.1536.824" timestamp="1586704621630" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1586693232556">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1586693232556" />
     <state x="475" y="40" key="refactoring.ChangeSignatureDialog" timestamp="1586682786725">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
