@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6dfe6d12-1d16-4351-a0c5-2a347b16a661" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../MergeSort.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bogo_Sort.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bogo_Sort/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Bogo_Sort/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Knuth-Morris-Pratt algorithm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Knuth-Morris-Pratt algorithm/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Knuth-Morris-Pratt algorithm/out/production/ Knuth-Morris-Pratt algorithm/com/rd/KMP.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Knuth-Morris-Pratt algorithm/out/production/ Knuth-Morris-Pratt algorithm/com/rd/KMP.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Knuth-Morris-Pratt algorithm/src/com/rd/BruteForce.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Knuth-Morris-Pratt algorithm/src/com/rd/BruteForce.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Knuth-Morris-Pratt algorithm/src/com/rd/KMP.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Knuth-Morris-Pratt algorithm/src/com/rd/KMP.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Knuth-Morris-Pratt algorithm/src/com/rd/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Knuth-Morris-Pratt algorithm/src/com/rd/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Merge_Sort.rar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Quick_Sort/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Quick_Sort/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Quick_Sort/src/com/rd/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Quick_Sort/src/com/rd/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Quick_Sort/src/com/rd/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Quick_Sort/src/com/rd/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rd/MergeSortEnhanced.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rd/MergeSortEnhanced.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,6 +162,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1586693136234" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1587476148853">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1587476148853" />
     <state x="209" y="32" key="new project wizard" timestamp="1586640353481">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
