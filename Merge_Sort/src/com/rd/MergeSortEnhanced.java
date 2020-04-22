@@ -35,14 +35,16 @@ public class MergeSortEnhanced {
     // draw one row of trace
     private static void show(double[] a, int lo, int hi) {
         double y = numberOfRows - row - 1;
+
         for (int k = 0; k < a.length; k++) {
-            if      (k < lo)             StdDraw.setPenColor(StdDraw.LIGHT_GRAY);
-            else if (k > hi)             StdDraw.setPenColor(StdDraw.LIGHT_GRAY);
-            else                         StdDraw.setPenColor(StdDraw.BLACK);
+            if(k < lo)
+                StdDraw.setPenColor(StdDraw.LIGHT_GRAY);
+            else if (k > hi)
+                StdDraw.setPenColor(StdDraw.LIGHT_GRAY);
+            else
+                StdDraw.setPenColor(StdDraw.BLACK);
             StdDraw.filledRectangle(k, y + a[k] * 0.25, 0.25, a[k] * 0.25);
         }
         row++;
     }
-
-
-}
+ }
