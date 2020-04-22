@@ -1,8 +1,8 @@
 package com.rd;
 
 public class MergeSortEnhanced {
-    /*
-        // mergesort a[lo..hi] using auxiliary array aux[lo..hi]
+
+        mergesort a[lo..hi] using auxiliary array aux[lo..hi]
 
         private static void sort(double[] a, double[] aux, int lo, int hi) {
         int n = hi - lo + 1;
