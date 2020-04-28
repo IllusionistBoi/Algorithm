@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="551de29c-1592-49b6-8f3d-1a510edfd29a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rd/BinaryStdln.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rd/BinaryStdIn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rd/Stdln.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rd/StdIn.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,24 +88,32 @@
       <option name="project" value="LOCAL" />
       <updated>1588023904253</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="xml updated">
+      <created>1588073668477</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1588073668477</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Starter Code Lab9" />
     <MESSAGE value="Starter Code error removed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Starter Code error removed" />
+    <MESSAGE value="xml updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="xml updated" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="368" y="6" key="CommitChangelistDialog2" timestamp="1588023903246">
+    <state x="368" y="6" key="CommitChangelistDialog2" timestamp="1588073667061">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="368" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1588023903246" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1588023906938">
+    <state x="368" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1588073667061" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1588073674056">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1588023906938" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1588073674056" />
     <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1588023343659">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
