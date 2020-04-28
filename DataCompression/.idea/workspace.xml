@@ -2,18 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="551de29c-1592-49b6-8f3d-1a510edfd29a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/rd/BinaryDump.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/rd/BinaryIn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/rd/BinaryOut.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/rd/BinaryStdOut.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/rd/BinaryStdln.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/rd/HexDump.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/rd/RunLength.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/rd/StdOut.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/rd/Stdln.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/rd/abra.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/rd/q32x48.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/rd/q64x96.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -85,23 +73,38 @@
       <option name="project" value="LOCAL" />
       <updated>1588023387526</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Starter Code Lab9">
+      <created>1588023888370</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1588023888370</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Starter Code error removed">
+      <created>1588023904253</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1588023904253</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Starter Code Lab9" />
-    <option name="LAST_COMMIT_MESSAGE" value="Starter Code Lab9" />
+    <MESSAGE value="Starter Code error removed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Starter Code error removed" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="368" y="6" key="CommitChangelistDialog2" timestamp="1588023886780">
+    <state x="368" y="6" key="CommitChangelistDialog2" timestamp="1588023903246">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="368" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1588023886780" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1588023359438">
+    <state x="368" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1588023903246" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1588023906938">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1588023359438" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1588023906938" />
     <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1588023343659">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
