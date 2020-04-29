@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="551de29c-1592-49b6-8f3d-1a510edfd29a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/rd/BinaryStdln.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rd/BinaryStdIn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/rd/Stdln.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rd/StdIn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rd/BinaryStdIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rd/BinaryStdIn.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588073668477</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="BinaryStdIn,  file renamed">
+      <created>1588073793861</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1588073793861</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -103,17 +110,18 @@
     <MESSAGE value="Starter Code Lab9" />
     <MESSAGE value="Starter Code error removed" />
     <MESSAGE value="xml updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="xml updated" />
+    <MESSAGE value="BinaryStdIn,  file renamed" />
+    <option name="LAST_COMMIT_MESSAGE" value="BinaryStdIn,  file renamed" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="368" y="6" key="CommitChangelistDialog2" timestamp="1588073667061">
+    <state x="368" y="6" key="CommitChangelistDialog2" timestamp="1588073792644">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="368" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1588073667061" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1588073674056">
+    <state x="368" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1588073792644" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1588073801889">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1588073674056" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1588073801889" />
     <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1588023343659">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

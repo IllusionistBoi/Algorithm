@@ -44,7 +44,7 @@ public final class BinaryStdIn {
     private static int n;                   // number of bits left in buffer
     private static boolean isInitialized;   // has BinaryStdIn been called for first time?
 
-    // don't instantiate
+    // don't instantiatee
     private BinaryStdIn() { }
 
     // fill buffer
