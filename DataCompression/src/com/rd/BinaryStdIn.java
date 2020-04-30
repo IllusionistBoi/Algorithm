@@ -1,10 +1,8 @@
-package com.rd;
-
 /******************************************************************************
  *  Compilation:  javac BinaryStdIn.java
  *  Execution:    java BinaryStdIn < input > output
- *  Dependencies: none
- *
+ *  Dependencies: none             
+ *  
  *  Supports reading binary data from standard input.
  *
  *  % java BinaryStdIn < input.jpg > output.jpg
@@ -25,7 +23,7 @@ import java.util.NoSuchElementException;
  *  (as an {@code int} or {@code float}), or 64 bits at a time (as a
  *  {@code double} or {@code long}).
  *  <p>
- *  All primitive types are assumed to be represented using their
+ *  All primitive types are assumed to be represented using their 
  *  standard Java representations, in big-endian (most significant
  *  byte first) order.
  *  <p>
@@ -44,7 +42,7 @@ public final class BinaryStdIn {
     private static int n;                   // number of bits left in buffer
     private static boolean isInitialized;   // has BinaryStdIn been called for first time?
 
-    // don't instantiatee
+    // don't instantiate
     private BinaryStdIn() { }
 
     // fill buffer
@@ -68,7 +66,7 @@ public final class BinaryStdIn {
         }
     }
 
-    /**
+   /**
      * Close this input stream and release any associated system resources.
      */
     public static void close() {
@@ -82,7 +80,7 @@ public final class BinaryStdIn {
         }
     }
 
-    /**
+   /**
      * Returns true if standard input is empty.
      * @return true if and only if standard input is empty
      */
@@ -91,7 +89,7 @@ public final class BinaryStdIn {
         return buffer == EOF;
     }
 
-    /**
+   /**
      * Reads the next bit of data from standard input and return as a boolean.
      *
      * @return the next bit of data from standard input as a {@code boolean}
@@ -105,7 +103,7 @@ public final class BinaryStdIn {
         return bit;
     }
 
-    /**
+   /**
      * Reads the next 8 bits from standard input and return as an 8-bit char.
      * Note that {@code char} is a 16-bit type;
      * to read the next 16 bits as a char, use {@code readChar(16)}.
@@ -136,7 +134,7 @@ public final class BinaryStdIn {
         // because buffer will be -1, so there is a special case for aligned byte
     }
 
-    /**
+   /**
      * Reads the next r bits from standard input and return as an r-bit character.
      *
      * @param  r number of bits to read.
@@ -159,8 +157,8 @@ public final class BinaryStdIn {
         return x;
     }
 
-    /**
-     * Reads the remaining bytes of data from standard input and return as a string.
+   /**
+     * Reads the remaining bytes of data from standard input and return as a string. 
      *
      * @return the remaining bytes of data from standard input as a {@code String}
      * @throws NoSuchElementException if standard input is empty or if the number of bits
@@ -178,7 +176,7 @@ public final class BinaryStdIn {
     }
 
 
-    /**
+   /**
      * Reads the next 16 bits from standard input and return as a 16-bit short.
      *
      * @return the next 16 bits of data from standard input as a {@code short}
@@ -194,7 +192,7 @@ public final class BinaryStdIn {
         return x;
     }
 
-    /**
+   /**
      * Reads the next 32 bits from standard input and return as a 32-bit int.
      *
      * @return the next 32 bits of data from standard input as a {@code int}
@@ -210,7 +208,7 @@ public final class BinaryStdIn {
         return x;
     }
 
-    /**
+   /**
      * Reads the next r bits from standard input and return as an r-bit int.
      *
      * @param  r number of bits to read.
@@ -233,7 +231,7 @@ public final class BinaryStdIn {
         return x;
     }
 
-    /**
+   /**
      * Reads the next 64 bits from standard input and return as a 64-bit long.
      *
      * @return the next 64 bits of data from standard input as a {@code long}
@@ -250,7 +248,7 @@ public final class BinaryStdIn {
     }
 
 
-    /**
+   /**
      * Reads the next 64 bits from standard input and return as a 64-bit double.
      *
      * @return the next 64 bits of data from standard input as a {@code double}
@@ -260,7 +258,7 @@ public final class BinaryStdIn {
         return Double.longBitsToDouble(readLong());
     }
 
-    /**
+   /**
      * Reads the next 32 bits from standard input and return as a 32-bit float.
      *
      * @return the next 32 bits of data from standard input as a {@code float}
@@ -271,7 +269,7 @@ public final class BinaryStdIn {
     }
 
 
-    /**
+   /**
      * Reads the next 8 bits from standard input and return as an 8-bit byte.
      *
      * @return the next 8 bits of data from standard input as a {@code byte}
@@ -281,8 +279,8 @@ public final class BinaryStdIn {
         char c = readChar();
         return (byte) (c & 0xff);
     }
-
-    /**
+    
+   /**
      * Test client. Reads in a binary input file from standard input and writes
      * it to standard output.
      *
@@ -322,4 +320,3 @@ public final class BinaryStdIn {
  *  You should have received a copy of the GNU General Public License
  *  along with algs4.jar.  If not, see http://www.gnu.org/licenses.
  ******************************************************************************/
-

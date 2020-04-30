@@ -1,5 +1,3 @@
-package com.rd;
-
 /******************************************************************************
  *  Compilation:  javac BinaryStdOut.java
  *  Execution:    java BinaryStdOut
@@ -27,7 +25,7 @@ import java.io.IOException;
  *  The client must {@code flush()} the output stream when finished writing bits.
  *  <p>
  *  The client should not intermix calls to {@code BinaryStdOut} with calls
- *  to {@code StdOut} or {@code System.out}; otherwise unexpected behavior
+ *  to {@code StdOut} or {@code System.out}; otherwise unexpected behavior 
  *  will result.
  *
  *  @author Robert Sedgewick
@@ -50,7 +48,7 @@ public final class BinaryStdOut {
         isInitialized = true;
     }
 
-    /**
+   /**
      * Writes the specified bit to standard output.
      */
     private static void writeBit(boolean bit) {
@@ -63,9 +61,9 @@ public final class BinaryStdOut {
         // if buffer is full (8 bits), write out as a single byte
         n++;
         if (n == 8) clearBuffer();
-    }
+    } 
 
-    /**
+   /**
      * Writes the 8-bit byte to standard output.
      */
     private static void writeByte(int x) {
@@ -107,7 +105,7 @@ public final class BinaryStdOut {
         buffer = 0;
     }
 
-    /**
+   /**
      * Flushes standard output, padding 0s if number of bits written so far
      * is not a multiple of 8.
      */
@@ -121,7 +119,7 @@ public final class BinaryStdOut {
         }
     }
 
-    /**
+   /**
      * Flushes and closes standard output. Once standard output is closed, you can no
      * longer write bits to it.
      */
@@ -137,15 +135,15 @@ public final class BinaryStdOut {
     }
 
 
-    /**
+   /**
      * Writes the specified bit to standard output.
      * @param x the {@code boolean} to write.
      */
     public static void write(boolean x) {
         writeBit(x);
-    }
+    } 
 
-    /**
+   /**
      * Writes the 8-bit byte to standard output.
      * @param x the {@code byte} to write.
      */
@@ -153,7 +151,7 @@ public final class BinaryStdOut {
         writeByte(x & 0xff);
     }
 
-    /**
+   /**
      * Writes the 32-bit int to standard output.
      * @param x the {@code int} to write.
      */
@@ -164,7 +162,7 @@ public final class BinaryStdOut {
         writeByte((x >>>  0) & 0xff);
     }
 
-    /**
+   /**
      * Writes the r-bit int to standard output.
      * @param x the {@code int} to write.
      * @param r the number of relevant bits in the char.
@@ -188,7 +186,7 @@ public final class BinaryStdOut {
 
 
 
-    /**
+   /**
      * Writes the 64-bit double to standard output.
      * @param x the {@code double} to write.
      */
@@ -196,7 +194,7 @@ public final class BinaryStdOut {
         write(Double.doubleToRawLongBits(x));
     }
 
-    /**
+   /**
      * Writes the 64-bit long to standard output.
      * @param x the {@code long} to write.
      */
@@ -211,7 +209,7 @@ public final class BinaryStdOut {
         writeByte((int) ((x >>>  0) & 0xff));
     }
 
-    /**
+   /**
      * Writes the 32-bit float to standard output.
      * @param x the {@code float} to write.
      */
@@ -219,7 +217,7 @@ public final class BinaryStdOut {
         write(Float.floatToRawIntBits(x));
     }
 
-    /**
+   /**
      * Writes the 16-bit int to standard output.
      * @param x the {@code short} to write.
      */
@@ -228,7 +226,7 @@ public final class BinaryStdOut {
         writeByte((x >>>  0) & 0xff);
     }
 
-    /**
+   /**
      * Writes the 8-bit char to standard output.
      * @param x the {@code char} to write.
      * @throws IllegalArgumentException if {@code x} is not betwen 0 and 255.
@@ -238,7 +236,7 @@ public final class BinaryStdOut {
         writeByte(x);
     }
 
-    /**
+   /**
      * Writes the r-bit char to standard output.
      * @param x the {@code char} to write.
      * @param r the number of relevant bits in the char.
@@ -258,7 +256,7 @@ public final class BinaryStdOut {
         }
     }
 
-    /**
+   /**
      * Writes the string of 8-bit characters to standard output.
      * @param s the {@code String} to write.
      * @throws IllegalArgumentException if any character in the string is not
@@ -269,7 +267,7 @@ public final class BinaryStdOut {
             write(s.charAt(i));
     }
 
-    /**
+   /**
      * Writes the string of r-bit characters to standard output.
      * @param s the {@code String} to write.
      * @param r the number of relevants bits in each character.
@@ -282,7 +280,7 @@ public final class BinaryStdOut {
             write(s.charAt(i), r);
     }
 
-    /**
+   /**
      * Tests the methods in this class.
      *
      * @param args the command-line arguments

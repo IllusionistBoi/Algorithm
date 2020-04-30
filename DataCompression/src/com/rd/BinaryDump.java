@@ -1,14 +1,12 @@
-package com.rd;
-
 /******************************************************************************
  *  Compilation:  javac BinaryDump.java
  *  Execution:    java BinaryDump n < file
  *  Dependencies: BinaryStdIn.java
  *  Data file:    https://introcs.cs.princeton.edu/stdlib/abra.txt
- *
+ *  
  *  Reads in a binary file and writes out the bits, n per line.
  *
- *  % more abra.txt
+ *  % more abra.txt 
  *  ABRACADABRA!
  *
  *  % java BinaryDump 16 < abra.txt

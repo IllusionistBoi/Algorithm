@@ -1,5 +1,3 @@
-package com.rd;
-
 /******************************************************************************
  *  Compilation:  javac RunLength.java
  *  Execution:    java RunLength - < input.txt   (compress)
@@ -12,7 +10,7 @@ package com.rd;
  *  Compress or expand binary input from standard input using
  *  run-length encoding.
  *
- *  % java BinaryDump 40 < 4runs.bin
+ *  % java BinaryDump 40 < 4runs.bin 
  *  0000000000000001111111000000011111111111
  *  40 bits
  *
@@ -49,8 +47,8 @@ public class RunLength {
      * using run-length encoding with 8-bit run lengths); decodes them;
      * and writes the results to standard output.
      */
-    public static void expand() {
-        boolean b = false;
+    public static void expand() { 
+        boolean b = false; 
         while (!BinaryStdIn.isEmpty()) {
             int run = BinaryStdIn.readInt(LG_R);
             for (int i = 0; i < run; i++)
@@ -65,25 +63,25 @@ public class RunLength {
      * them using run-length coding with 8-bit run lengths; and writes the
      * results to standard output.
      */
-    public static void compress() {
-        char run = 0;
+    public static void compress() { 
+        char run = 0; 
         boolean old = false;
-        while (!BinaryStdIn.isEmpty()) {
+        while (!BinaryStdIn.isEmpty()) { 
             boolean b = BinaryStdIn.readBoolean();
             if (b != old) {
                 BinaryStdOut.write(run, LG_R);
                 run = 1;
                 old = !old;
             }
-            else {
-                if (run == R-1) {
+            else { 
+                if (run == R-1) { 
                     BinaryStdOut.write(run, LG_R);
                     run = 0;
                     BinaryStdOut.write(run, LG_R);
                 }
                 run++;
-            }
-        }
+            } 
+        } 
         BinaryStdOut.write(run, LG_R);
         BinaryStdOut.close();
     }
