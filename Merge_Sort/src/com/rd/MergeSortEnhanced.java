@@ -1,50 +1,117 @@
 package com.rd;
 
-public class MergeSortEnhanced {
+class Merge  {
 
-        mergesort a[lo..hi] using auxiliary array aux[lo..hi]
+    public static void bottomUp(Comparable[] sequence) {
+        if (sequence.length < CUTOFF)
+            Insertion.sort(sequence);
 
-        private static void sort(double[] a, double[] aux, int lo, int hi) {
-        int n = hi - lo + 1;
-        if (n <= CUTOFF) {
-            insertionSort(a, lo, hi);
-            show(a, lo, hi);
+        else {
+            Comparable[] auxiliary = new Comparable[sequence.length];
+            Comparable[] temp;
+
+            for (int bin = 1; bin < sequence.length; bin *= 2) {
+
+                int first = 0, middle = bin, last = middle + bin;
+                for ( ; first < sequence.length; first = last, middle = last + bin, last = middle + bin) {
+
+                    if (middle > sequence.length)
+                        middle = sequence.length;
+
+                    if (last > sequence.length)
+                        last = sequence.length;
+
+                    merge(auxiliary, sequence, first, middle, last);
+                }
+
+                temp = sequence;
+                sequence = auxiliary;
+                auxiliary = temp;
+            }
+        }
+    }
+
+    public static void main(String[] args) {
+
+        Integer[] array = new Integer[]{4, 8, 3, 0, 5, 10, -1, 10, 11, 7, 4};
+
+        Merge.bottomUp(array);
+
+        for (int i = 0; i < array.length; ++i)
+            System.out.printf("%d ", array[i]);
+    }
+
+    private static void sort(Comparable[] destination, Comparable[] source, int first, int last) {
+
+        int size = last - first;
+
+        if (size <= 1)
             return;
+
+        int middle = first + size/2;
+
+        sort(source, destination, first, middle);
+        sort(source, destination, middle, last);
+
+        if (less(source, middle, middle - 1)) {
+            merge(destination, source, first, middle, last);
         }
-        if (hi <= lo) return;
-        int mid = lo + (hi - lo) / 2;
-        sort(a, aux, lo, mid);
-        sort(a, aux, mid + 1, hi);
-        merge(a, aux, lo, mid, hi);
-        show(a, lo, hi);
+
+        assert isSorted(destination, first, last);
     }
 
-    public static void sort(double[] a) {
-        double[] aux = new double[a.length];
-        sort(a, aux, 0, a.length-1);
-    }
+    private static void merge(Comparable[] destination, Comparable[] source, int first, int middle, int last) {
 
+        assert isSorted(source, first, middle);
+        assert isSorted(source, middle, last);
 
-    // sort from a[lo] to a[hi] using insertion sort
-    private static void insertionSort(double[] a, int lo, int hi) {
-        for (int i = lo; i <= hi; i++)
-            for (int j = i; j > lo && less(a[j], a[j-1]); j--)
-                exch(a, j, j-1);
-    }
+        for (int i = first, j = middle; first < last; ++first) {
 
-    // draw one row of trace
-    private static void show(double[] a, int lo, int hi) {
-        double y = numberOfRows - row - 1;
+            int choice;
 
-        for (int k = 0; k < a.length; k++) {
-            if(k < lo)
-                StdDraw.setPenColor(StdDraw.LIGHT_GRAY);
-            else if (k > hi)
-                StdDraw.setPenColor(StdDraw.LIGHT_GRAY);
+            if (i >= middle)
+                choice = j++;
+
+            else if (j >= last)
+                choice = i++;
+
+            else if (less(source, j, i))
+                choice = j++;
+
             else
-                StdDraw.setPenColor(StdDraw.BLACK);
-            StdDraw.filledRectangle(k, y + a[k] * 0.25, 0.25, a[k] * 0.25);
+                choice = i++;
+
+            destination[first] = source[choice];
         }
-        row++;
     }
- }
+
+    private static boolean less(Comparable[] sequence, int first, int second) {
+        return sequence[first].compareTo(sequence[second]) < 0;
+    }
+
+    private static boolean isSorted(Comparable[] sequence, int first, int last) {
+        for (int i = first, j = i + 1; j < last; ++i, ++j)
+            if (less(sequence, j, i)) return false;
+
+        return true;
+    }
+
+    private static int CUTOFF = 8;
+}
+
+class Insertion {
+
+    static public void sort(Comparable[] sequence) {
+
+        for (int i = 1; i < sequence.length; ++i) {
+
+            Comparable item = sequence[i];
+            int j = i - 1;
+
+            for ( ; j >= 0 && sequence[j].compareTo(item) >= 0; --j)
+                sequence[j + 1] = sequence[j];
+
+            sequence[j + 1] = item;
+        }
+    }
+};
