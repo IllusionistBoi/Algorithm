@@ -1,4 +1,4 @@
-package helper_code;
+package com.rd;
 /******************************************************************************
  *  Compilation:  javac BinaryOut.java
  *  Execution:    java BinaryOut

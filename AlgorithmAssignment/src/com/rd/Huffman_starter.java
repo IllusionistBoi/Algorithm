@@ -1,10 +1,10 @@
-package helper_code;
+package com.rd;
 /******************************************************************************
- *  Compilation:  javac helper_code.Huffman.java
+ *  Compilation:  javac com.rd.Huffman.java
  *
- *  Compress or expand a binary input stream using the helper_code.Huffman algorithm.
+ *  Compress or expand a binary input stream using the com.rd.Huffman algorithm.
  *
- * Add instructions and documentation related to your helper_code.Huffman algorithm here...
+ * Add instructions and documentation related to your com.rd.Huffman algorithm here...
  *
  ******************************************************************************/
 
@@ -23,7 +23,7 @@ class Huffman {
     // Do not instantiate.
     private Huffman() { }
 
-    // helper_code.Huffman trie node
+    // com.rd.Huffman trie node
     private static class Node implements Comparable<Node> {
         private final char ch;
         private final int freq;
@@ -50,7 +50,7 @@ class Huffman {
 
     /**
      * Reads a sequence of 8-bit bytes from standard input; compresses them
-     * using helper_code.Huffman codes with an 8-bit alphabet; and writes the results
+     * using com.rd.Huffman codes with an 8-bit alphabet; and writes the results
      * to standard output.
      */
     public static void compress() {
@@ -60,7 +60,7 @@ class Huffman {
         // tabulate frequency counts
 
 
-        // build helper_code.Huffman trie
+        // build com.rd.Huffman trie
 
 
         // build code table
@@ -72,27 +72,27 @@ class Huffman {
         // print number of bytes in original uncompressed message
 
 
-        // use helper_code.Huffman code to encode input
+        // use com.rd.Huffman code to encode input
 
 
     }
 
 
     /**
-     * Reads a sequence of bits that represents a helper_code.Huffman-compressed message from
+     * Reads a sequence of bits that represents a com.rd.Huffman-compressed message from
      * standard input; expands them; and writes the results to standard output.
      */
     public static void decompress() {
 
-        // read in helper_code.Huffman trie from input stream
+        // read in com.rd.Huffman trie from input stream
 
         // number of bytes to write
 
-        // decode using the helper_code.Huffman trie
+        // decode using the com.rd.Huffman trie
 
     }
 
-    // build the helper_code.Huffman trie given frequencies
+    // build the com.rd.Huffman trie given frequencies
     private static Node buildTrie(int[] freq) {
 
         // initialze priority queue with singleton trees

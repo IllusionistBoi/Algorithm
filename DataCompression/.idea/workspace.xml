@@ -2,21 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="551de29c-1592-49b6-8f3d-1a510edfd29a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../AlgorithmAssignment/src/helper_code/StdOut.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AlgorithmAssignment/src/helper_code/StdOut.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/rd/4runs.bin" beforeDir="false" afterPath="$PROJECT_DIR$/src/4runs.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/rd/BinaryDump.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rd/BinaryDump.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/rd/BinaryIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rd/BinaryIn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/rd/BinaryOut.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rd/BinaryOut.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/rd/BinaryStdIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rd/BinaryStdIn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/rd/BinaryStdOut.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rd/BinaryStdOut.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/rd/HexDump.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rd/HexDump.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/rd/RunLength.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rd/RunLength.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/rd/StdIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rd/StdIn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/rd/StdOut.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rd/StdOut.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/rd/abra.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/abra.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/rd/q32x48.bin" beforeDir="false" afterPath="$PROJECT_DIR$/src/q32x48.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/rd/q64x96.bin" beforeDir="false" afterPath="$PROJECT_DIR$/src/q64x96.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AlgorithmAssignment/out/production/AlgorithmAssignment/com/rd/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AlgorithmAssignment/out/production/AlgorithmAssignment/data/genomeVirus.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AlgorithmAssignment/out/production/AlgorithmAssignment/data/medTale.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AlgorithmAssignment/out/production/AlgorithmAssignment/data/mobydick.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AlgorithmAssignment/out/production/AlgorithmAssignment/data/q32x48.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AlgorithmAssignment/out/production/AlgorithmAssignment/helper_code/BinaryDump.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AlgorithmAssignment/out/production/AlgorithmAssignment/helper_code/BinaryIn.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AlgorithmAssignment/out/production/AlgorithmAssignment/helper_code/BinaryOut.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AlgorithmAssignment/out/production/AlgorithmAssignment/helper_code/BinaryStdIn.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AlgorithmAssignment/out/production/AlgorithmAssignment/helper_code/BinaryStdOut.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AlgorithmAssignment/out/production/AlgorithmAssignment/helper_code/HexDump.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AlgorithmAssignment/out/production/AlgorithmAssignment/helper_code/Huffman$Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AlgorithmAssignment/out/production/AlgorithmAssignment/helper_code/Huffman.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AlgorithmAssignment/out/production/AlgorithmAssignment/helper_code/MinPQ$HeapIterator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AlgorithmAssignment/out/production/AlgorithmAssignment/helper_code/MinPQ.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AlgorithmAssignment/out/production/AlgorithmAssignment/helper_code/RunLength.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AlgorithmAssignment/out/production/AlgorithmAssignment/helper_code/StdIn.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AlgorithmAssignment/out/production/AlgorithmAssignment/helper_code/StdOut.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +47,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ronit\Desktop\Git_Repo\Algorithm\DataCompression\src" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
