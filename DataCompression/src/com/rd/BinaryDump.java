@@ -1,3 +1,5 @@
+package com.rd;
+
 /******************************************************************************
  *  Compilation:  javac BinaryDump.java
  *  Execution:    java BinaryDump n < file

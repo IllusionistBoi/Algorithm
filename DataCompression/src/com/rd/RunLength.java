@@ -1,3 +1,5 @@
+package com.rd;
+
 /******************************************************************************
  *  Compilation:  javac RunLength.java
  *  Execution:    java RunLength - < input.txt   (compress)

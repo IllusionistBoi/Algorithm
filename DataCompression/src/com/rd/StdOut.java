@@ -1,3 +1,5 @@
+package com.rd;
+
 /******************************************************************************
  *  Compilation:  javac StdOut.java
  *  Execution:    java StdOut

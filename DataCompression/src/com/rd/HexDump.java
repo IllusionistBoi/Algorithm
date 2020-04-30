@@ -1,3 +1,5 @@
+package com.rd;
+
 /******************************************************************************
  *  Compilation:  javac HexDump.java
  *  Execution:    java HexDump < file

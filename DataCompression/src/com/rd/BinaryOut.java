@@ -1,3 +1,5 @@
+package com.rd;
+
 /******************************************************************************
  *  Compilation:  javac BinaryOut.java
  *  Execution:    java BinaryOut

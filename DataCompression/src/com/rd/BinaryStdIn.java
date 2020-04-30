@@ -1,3 +1,4 @@
+package com.rd;
 /******************************************************************************
  *  Compilation:  javac BinaryStdIn.java
  *  Execution:    java BinaryStdIn < input > output
