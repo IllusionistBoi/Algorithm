@@ -2,8 +2,14 @@ package com.rd;
 
 import java.util.Scanner;
 
-/* Takes Two Numbers as input from the user and then pass into the algorithm for computation*/
-
+/**
+ *  Code written by Ronit Dahiya, 18204009
+ *  Practical 1
+ *
+ *  Takes Two Numbers as input from the user
+ *  and then pass into the algorithm
+ *  for computation
+ */
 public class Main {
 
     public static void main(String[] args) {
