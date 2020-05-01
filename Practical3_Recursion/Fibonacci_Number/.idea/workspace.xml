@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76fc9123-a0b7-499e-811b-c88015e5e87f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Practical1_Multiplication/Russian Peasant’s algorithm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practical1_Multiplication/Russian Peasant’s algorithm/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rd/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rd/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rd/Recursion_Method.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rd/Recursion_Method.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,29 +91,29 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="305" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1588339115198" />
-    <state width="724" height="210" key="GridCell.Tab.0.bottom" timestamp="1582737157623">
+    <state width="1493" height="207" key="GridCell.Tab.0.bottom" timestamp="1588353693798">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="724" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582737157623" />
-    <state width="724" height="210" key="GridCell.Tab.0.center" timestamp="1582737157623">
+    <state width="1493" height="207" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588353693798" />
+    <state width="1493" height="207" key="GridCell.Tab.0.center" timestamp="1588353693798">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="724" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1582737157623" />
-    <state width="724" height="210" key="GridCell.Tab.0.left" timestamp="1582737157623">
+    <state width="1493" height="207" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1588353693798" />
+    <state width="1493" height="207" key="GridCell.Tab.0.left" timestamp="1588353693798">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="724" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1582737157623" />
-    <state width="724" height="210" key="GridCell.Tab.0.right" timestamp="1582737157623">
+    <state width="1493" height="207" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1588353693798" />
+    <state width="1493" height="207" key="GridCell.Tab.0.right" timestamp="1588353693798">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="724" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1582737157623" />
+    <state width="1493" height="207" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1588353693798" />
     <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1588339118360">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1588339118360" />
-    <state x="88" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1588336989224">
+    <state x="88" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1588353383571">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="88" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1588336989224" />
+    <state x="88" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1588353383571" />
   </component>
 </project>

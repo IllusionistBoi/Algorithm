@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7f4083bf-b1af-4e4f-af76-56bad454adfa" name="Default Changelist" comment="" />
+    <list default="true" id="7f4083bf-b1af-4e4f-af76-56bad454adfa" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,6 +34,11 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/rd" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Ronit\Desktop\Git_Repo\Algorithm\Practical1_Multiplication\Russian Peasant’s algorithm\src\com\rd" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
@@ -87,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588352353755</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="xml file">
+      <created>1588352596557</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1588352596557</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -97,33 +111,38 @@
     </ignored-roots>
     <MESSAGE value="Computation Time Feature Added" />
     <MESSAGE value="Comments added with documentation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Comments added with documentation" />
+    <MESSAGE value="xml file" />
+    <option name="LAST_COMMIT_MESSAGE" value="xml file" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="314" y="6" key="CommitChangelistDialog2" timestamp="1588352352815">
+    <state x="314" y="6" key="CommitChangelistDialog2" timestamp="1588352595728">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="314" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1588352352815" />
-    <state width="1493" height="207" key="GridCell.Tab.0.bottom" timestamp="1588352164726">
+    <state x="314" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1588352595728" />
+    <state width="1493" height="207" key="GridCell.Tab.0.bottom" timestamp="1588352864863">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="207" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588352164726" />
-    <state width="1493" height="207" key="GridCell.Tab.0.center" timestamp="1588352164725">
+    <state width="1493" height="207" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588352864863" />
+    <state width="1493" height="207" key="GridCell.Tab.0.center" timestamp="1588352864862">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="207" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1588352164725" />
-    <state width="1493" height="207" key="GridCell.Tab.0.left" timestamp="1588352164724">
+    <state width="1493" height="207" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1588352864862" />
+    <state width="1493" height="207" key="GridCell.Tab.0.left" timestamp="1588352864862">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="207" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1588352164724" />
-    <state width="1493" height="207" key="GridCell.Tab.0.right" timestamp="1588352164725">
+    <state width="1493" height="207" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1588352864862" />
+    <state width="1493" height="207" key="GridCell.Tab.0.right" timestamp="1588352864863">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="207" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1588352164725" />
+    <state width="1493" height="207" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1588352864863" />
     <state x="277" y="54" key="SettingsEditor" timestamp="1588352132903">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1588352132903" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1588352598681">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1588352598681" />
     <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1588351798851">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
