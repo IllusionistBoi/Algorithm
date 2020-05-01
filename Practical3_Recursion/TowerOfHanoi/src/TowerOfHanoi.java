@@ -1,6 +1,17 @@
+/**
+ * Program written by Ronit Dahiya, 18204009
+ * Practical 3
+ */
 public class TowerOfHanoi {
 
-    // Java recursive function to solve tower of hanoi puzzle
+    /**
+     * Method (recursive function) to solve tower of hanoi puzzle
+     *
+     * @param Dish_Number dish number
+     * @param Initial_Rod initial rod
+     * @param Destination_Rod destination/final rod
+     * @param Aux_Rod mediator rod
+     */
     static void towerOfHanoi(int Dish_Number, char Initial_Rod, char Destination_Rod, char Aux_Rod)
     {
         // Base Case for recursion function
