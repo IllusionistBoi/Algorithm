@@ -7,8 +7,6 @@ public class Main {
     // Made the array global so as to make it accessible from different function
     private static Double[] array;
 
-
-
     public static void main(String[] args) {
 
         long size = 5;
