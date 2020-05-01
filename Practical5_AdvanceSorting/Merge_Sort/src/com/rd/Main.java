@@ -22,7 +22,7 @@ public class Main {
      * @param arr array passed
      * @return boolean value
      */
-    private static boolean isSorted(Double[] arr) {
+    static boolean isSorted(Double[] arr) {
         // Iterated through the array and checked if previous value is greater or not.
         for (int i = 1; i < arr.length; i++) {
             if (arr[i] >= arr[i - 1]) {
@@ -33,6 +33,16 @@ public class Main {
         return true;
     }
 
+    static boolean isSorted(Comparable[] sequence, int first, int last) {
+        for (int i = first, j = i + 1; j < last; ++i, ++j)
+            if (less(sequence, j, i)) return false;
+
+        return true;
+    }
+
+    static boolean less(Comparable[] sequence, int first, int second) {
+        return sequence[first].compareTo(sequence[second]) < 0;
+    }
 
     public static void main(String[] args) {
 

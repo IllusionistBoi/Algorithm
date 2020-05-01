@@ -1,5 +1,17 @@
 package com.rd;
 
+/**
+ *  This is the enhancedSorting implementation
+ *  of mergesort.
+ *  This class is working if comments removed from line 14 and 118.
+ *
+ *  To run this class, MergeSort must be commented
+ *  online resources and books were
+ *  referred for this part of project (MergeSortEnhanced)
+ *
+ **/
+
+/*
 class Merge  {
 
     public static void bottomUp(Comparable[] sequence) {
@@ -53,17 +65,17 @@ class Merge  {
         sort(source, destination, first, middle);
         sort(source, destination, middle, last);
 
-        if (less(source, middle, middle - 1)) {
+        if (Main.less(source, middle, middle - 1)) {
             merge(destination, source, first, middle, last);
         }
 
-        assert isSorted(destination, first, last);
+        assert Main.isSorted(destination, first, last);
     }
 
     private static void merge(Comparable[] destination, Comparable[] source, int first, int middle, int last) {
 
-        assert isSorted(source, first, middle);
-        assert isSorted(source, middle, last);
+        assert Main.isSorted(source, first, middle);
+        assert Main.isSorted(source, middle, last);
 
         for (int i = first, j = middle; first < last; ++first) {
 
@@ -75,7 +87,7 @@ class Merge  {
             else if (j >= last)
                 choice = i++;
 
-            else if (less(source, j, i))
+            else if (Main.less(source, j, i))
                 choice = j++;
 
             else
@@ -83,17 +95,6 @@ class Merge  {
 
             destination[first] = source[choice];
         }
-    }
-
-    private static boolean less(Comparable[] sequence, int first, int second) {
-        return sequence[first].compareTo(sequence[second]) < 0;
-    }
-
-    private static boolean isSorted(Comparable[] sequence, int first, int last) {
-        for (int i = first, j = i + 1; j < last; ++i, ++j)
-            if (less(sequence, j, i)) return false;
-
-        return true;
     }
 
     private static int CUTOFF = 8;
@@ -114,4 +115,4 @@ class Insertion {
             sequence[j + 1] = item;
         }
     }
-};
+};*/
