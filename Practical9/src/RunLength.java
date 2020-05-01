@@ -1,5 +1,3 @@
-package com.rd;
-
 /******************************************************************************
  *  Compilation:  javac RunLength.java
  *  Execution:    java RunLength - < input.txt   (compress)
@@ -96,7 +94,7 @@ public class RunLength {
      * @param args the command-line arguments
      */
     public static void  main(String[] args) {
-        if(args[0].equals("-")) compress();
+        if      (args[0].equals("-")) compress();
         else if (args[0].equals("+")) expand();
         else throw new IllegalArgumentException("Illegal command line argument");
     }
