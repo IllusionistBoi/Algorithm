@@ -12,7 +12,7 @@ public class Main {
      * sequence for given input
      *
      * @param n number for which fibonacci sequence is calculated
-     * @return returns the result
+     * @return multiplied sequence is returned as result
      */
     static int fibonacciIterative(int n){
         if (n<=1)
