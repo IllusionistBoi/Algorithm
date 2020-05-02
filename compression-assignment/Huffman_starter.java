@@ -187,10 +187,19 @@ class Huffman {
      */
     public static void main(String[] args) {
 
+        final long startTime = System.currentTimeMillis();
 
-        if(args[0].equals("compress")) compress();
-        else if(args[0].equals("decompress")) decompress();
+        if(args[0].equals("compress")) {
+            compress();
+            final long elapsedTime = System.currentTimeMillis() - startTime;
+            System.out.println("Computation Time is: " + elapsedTime);
+        }
+
+        else if(args[0].equals("decompress")) {
+            decompress();
+            final long elapsedTime1 = System.currentTimeMillis() - startTime;
+            System.out.println("Computation Time is: " + elapsedTime1);
+        }
     }
-
 }
 
