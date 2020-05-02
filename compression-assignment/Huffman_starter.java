@@ -169,8 +169,6 @@ class Huffman {
         }
     }
 
-
-
     private static Node readTrie() {
         boolean isLeaf = BinaryStdIn.readBoolean();
         if (isLeaf) {
@@ -188,6 +186,8 @@ class Huffman {
      * @param args the command-line arguments
      */
     public static void main(String[] args) {
+
+
         if(args[0].equals("compress")) compress();
         else if(args[0].equals("decompress")) decompress();
     }
